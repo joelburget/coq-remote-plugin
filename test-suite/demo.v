@@ -1,2 +1,2 @@
-Require Import LOGICAL_PATH_TO_PLUGIN.Plugin. (** FIXME **)
+Require Import LOGICAL_PATH_TO_PLUGIN.Plugin.Remote
 

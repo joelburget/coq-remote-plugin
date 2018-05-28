@@ -3,11 +3,16 @@
 
 
 (** Update with the name of the file **)
-DECLARE PLUGIN "name_plugin" (** FIXME **)
+DECLARE PLUGIN "remote_plugin"
 
-module MyPlugin = (** FIXME **)
+module RemotePlugin =
 struct
+
+  open Term
+  open Names
+  open Coqlib
 
   (** Your code here **)
 
+  VERNAC COMMAND EXTEND
 end
